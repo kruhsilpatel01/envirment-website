@@ -96,176 +96,134 @@
                 </header>
 
                 <div class="page-detail">
-                    <h3>Archives : Products</h3>
+                    <h3>Checkout</h3>
                 </div>
             </div>
         </div>
 
-        <section id="blog-list">
+        <section id="billing">
             <div class="container">
-                <div class="divider">
-                    <div class="product-detail">Showing all 8 results</div>
-                    <div class="product-sort"><select name="default shorting">
-                            <option value="default"> Default Value</option>
-                            <option value="population">Short By Population</option>
-                            <option value="average">Short By Average</option>
-                            <option value="latest">Short By Latest</option>
-                            <option value="low-to-high">Short By Low-To-high</option>
-                            <option value="high-to-low">Short By High-To-Low</option>
-                        </select>
+                <div class="billing-payment">
+                    <div class="billing-detail">
+                        <div class="title">
+                            <h2>Billing details</h2>
+                        </div>
+                        <form>
+                            <div class="billing-form">
+                                <div class="bill01">
+                                    <label>Have a Coupon? Click here to enter your code</label>
+                                    <input type="text" name="coupen" placeholder="Coupen code">
+                                    <button>Apply coupon</button>
+                                </div>
+                                <div class="bar01">
+                                    <div class="bill02"><label>First Name*</label>
+                                        <input type="text" name="f-name">
+                                    </div>
+                                    <div class="bill02"><label>Last Name*</label>
+                                        <input type="text" name="l-name">
+                                    </div>
+                                </div>
+                                <div class="bill01">
+                                    <label>Company Name (optional)</label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="bill01">
+                                    <label>Country *</label>
+                                    <select name="country">
+                                        <option value="france">France</option>
+                                        <option value="england">England</option>
+                                        <option value="brazil">Brazil</option>
+                                    </select>
+                                </div>
+                                <div class="bar03">
+                                    <label>Street address*</label>
+                                    <div class="bill03">
+                                        <input type="text" name="street-name1" placeholder="street name">
+                                        <input type="text" name="street-name2" placeholder="street name(optional)">
+                                    </div>
+                                </div>
+                                <div class="bar01">
+                                    <div class="bill02"><label>Postcode / ZIP *</label>
+                                        <input type="text" name="postcode" id="">
+                                    </div>
+                                    <div class="bill02"><label>Town/city</label>
+                                        <input type="text" name="city" placeholder="" id="">
+                                    </div>
+                                </div>
+                                <div class="bar01">
+                                    <div class="bill02">
+                                        <label>Province *</label>
+                                        <select name="procineces" id="">
+                                            <option value="badfordshird">Bedfordshire</option>
+                                            <option value="essex">Essex</option>
+                                            <option value="suffolk">Suffolk</option>
+                                        </select>
+                                    </div>
+                                    <div class="bill02">
+                                        <label>Phone *</label>
+                                        <input type="text" name="phone" id="">
+                                    </div>
+                                </div>
+                                <div class="bill01"><label>Additional Informarion</label>
+                                    <textarea name="info" id="" cols="30" rows="6"
+                                        placeholder="Notes about your order, eg.special notes for delivery"></textarea>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="search-bar">
-                        <input type="text" name="search">
-                        <div class="search-icon2"><span class="iconify" data-icon="icon-park-outline:search"
-                                style="color:#ffda0f;" data-width="30" data-height="30"></span></div>
-                    </div>
-                </div>
-                <div class="blog-list-detail">
-                    <div class="blog-list-side1">
-                        <!-- 1 -->
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product3.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Camping tent</h2>
-                                <h3><span>$65.00</span> $60.50</h3>
-                                <button type="submit">Add To Cart</button>
+                    <div class="payment-detail">
+                        <div class="pd1">
+                            <div class="our-order">
+                                <h2>Our order</h2>
+                            </div>
+                            <div class="order-list">
+                                <ul>
+                                    <li>Album X 1</li>
+                                    <li>$300</li>
+                                </ul>
+                                <hr>
+                                <ul>
+                                    <li>Beanie X 5</li>
+                                    <li>$34</li>
+                                </ul>
+                                <hr>
+                                <ul>
+                                    <li>Subtotal</li>
+                                    <li>$334</li>
+                                </ul>
+                                <hr>
+                                <ul>
+                                    <li>tax</li>
+                                    <li>18%</li>
+                                </ul>
+                                <hr>
+                                <ul>
+                                    <li>Total cost</li>
+                                    <li>$394</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product5.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Health kits</h2>
-                                <h3>$60.00</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <!-- 2 -->
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product7.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Medical Box</h2>
-                                <h3>$25.50</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product1.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>First aid kits</h2>
-                                <h3>$50.00</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <!-- 3 -->
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product2.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Staff t-shirt</h2>
-                                <h3>$50.50</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product4.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Globe</h2>
-                                <h3>$60.50</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <!-- 4 -->
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product6.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Volunteer t-shirt</h2>
-                                <h3>$60.50</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                        <div class="blog-01">
-                            <div class="image2"><img src="image/home/product8.jpg"></div>
-                            <div class="shop-image-detail">
-                                <h2>Brown book</h2>
-                                <h3>$18.00</h3>
-                                <button type="submit">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-list-side2">
-                        <div class="category">
-                            <div class="title">
-                                <h3>--- CATEGORIES ---</h3>
-                            </div>
-                            <div class="cate-image">
-                                <div class="cate1">
-                                    <div class="image"><img src="image/home/product1.jpg"></div>
-                                    <h2>Health kits (4)</h2>
+                        <div class="order-desc">
+                            <div class="pd2">
+                                <div class="our-order">
+                                    <h2>Payment</h2>
                                 </div>
-                                <div class="cate1">
-                                    <div class="image"><img src="image/home/product2.jpg"></div>
-                                    <h2>Clothes (2)</h2>
+                                <div class="payment-method">
+                                    <div class="m1"><input type="radio" name="bank-tranfer">
+                                        <h4>Direct bank transfer</h4>
+                                    </div>
+                                    <div class="m1"><input type="radio" name="bank-tranfer">
+                                        <h4>Check payment</h4>
+                                    </div>
+                                    <div class="m1"><input type="radio" name="bank-tranfer">
+                                        <h4>Cash on delivery</h4>
+                                    </div>
+                                    <div class="m1"><input type="radio" name="bank-tranfer">
+                                        <h4>Paypal</h4>
+                                    </div>
                                 </div>
-                                <div class="cate1">
-                                    <div class="image"><img src="image/home/product8.jpg"></div>
-                                    <h2>Accessories (5)</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cate-recent-post">
-                            <div class="title">
-                                <h3>--- RECENT PRODUCT ---</h3>
-                            </div>
-                            <div class="post01">
-                                <div class="image"><img src="image/home/product3.jpg"></div>
-                                <div class="image-detail">
-                                    <h2>Camping tent</h2>
-                                    <h3>Demoteam August | 17, 2022</h3>
-                                </div>
-                            </div>
-                            <div class="post01">
-                                <div class="image"><img src="image/home/product7.jpg"></div>
-                                <div class="image-detail">
-                                    <h2>Gift box</h2>
-                                    <h3>Demoteam August | 17, 2022</h3>
-                                </div>
-                            </div>
-                            <div class="post01">
-                                <div class="image"><img src="image/home/product5.jpg"></div>
-                                <div class="image-detail">
-                                    <h2>First aid kits</h2>
-                                    <h3>Demoteam August | 17, 2022</h3>
-                                </div>
-                            </div>
-                            <div class="post01">
-                                <div class="image"><img src="image/home/product4.jpg"></div>
-                                <div class="image-detail">
-                                    <h2>Globe</h2>
-                                    <h3>Demoteam August | 17, 2022</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="prod-gallery">
-                            <div class="title">
-                                <h3>--- PRODUCT GALLERY ---</h3>
-                            </div>
-                            <div class="prod-gallery-post">
-                                <div class="image1">
-                                    <img src="image/home/product1.jpg">
-                                </div>
-                                <div class="image1">
-                                    <img src="image/home/product2.jpg">
-                                </div>
-                                <div class="image1">
-                                    <img src="image/home/product3.jpg">
-                                </div>
-                                <div class="image1">
-                                    <img src="image/home/product4.jpg">
-                                </div>
-                                <div class="image1">
-                                    <img src="image/home/product5.jpg">
-                                </div>
-                                <div class="image1">
-                                    <img src="image/home/product6.jpg">
+                                <div class="button-place-order">
+                                    <button type="submit">Place order</button>
                                 </div>
                             </div>
                         </div>
