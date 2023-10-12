@@ -2465,16 +2465,18 @@ footer {
     width: 30%;
 }
 
-.pd1{
+.pd1 {
     background-color: rgb(241, 241, 241);
     padding: 20px;
     margin: 0px 10px;
 }
-.pd2{
+
+.pd2 {
     background-color: rgb(241, 241, 241);
     padding: 20px;
     margin: 30px 10px;
 }
+
 .our-order {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -2524,4 +2526,99 @@ footer {
 .order-desc .button-place-order button:hover {
     background-color: black;
     color: white;
+}
+
+/* contact page */
+#contact-page-section {
+    margin: 100px 0px;
+}
+
+.contactpage-detail {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-detail1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-form-social-icon {
+    width: 50%;
+    padding: 20px;
+    height: 700px;
+    
+}
+.contct-blackbox{
+    background-image: url(image/home/banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+}
+.contact-desc{
+    position: relative;
+    margin-bottom: 50px;
+}
+.contact-desc h2{
+    opacity: 0.1;
+    position: absolute;
+    font-size: 60px;
+}
+.contact-desc h3{
+    font-size: 50px;
+    padding: 40px 0px;
+    color: #0E3500;
+    font-weight: bolder;
+    line-height: 60px;
+}
+.contact-desc h3 span{
+    color: #ffda0f;
+}
+.contact-info{
+    width: 100%;
+    margin-top: 30px;
+}
+.contact-info .info1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid #ded6d6;
+    padding: 10px 0px;
+}
+.contact-info .info1 .icon{
+    width: 20%;
+    text-align: center;
+    line-height:90px;
+}
+.contact-info .info1 .icon-detail h2{
+    color: #0E3500;
+}
+.contact-info .info1 .icon-detail p{
+    max-width: 480px;
+    padding-right: 10px;
+    opacity: 0.7;
+}
+.bar01 .bill02 input{
+    text-indent: 30px;
+}
+.contact-button button{
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffda0f;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contact-button button:hover{
+    background-color: black;
+    color: white;
+}
+
+#map{
+    width: 100%;
+}
+#map iframe{
+    width: 100%;
 }
