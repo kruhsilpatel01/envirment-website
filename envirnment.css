@@ -4,8 +4,10 @@
 }
 
 .main {
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 .container {
